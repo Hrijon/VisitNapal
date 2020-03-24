@@ -79,7 +79,25 @@
 
 </div>
 
+<!-- Results model -->
+<div id="id01" class="loginModal">
+    <form class="diary-content" action="./server/diary.php" method="post">
 
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <h2>Visitor Registration Form</h2>
+          <img src="img/logo.jpeg" alt="anonymous" class="anonymous">
+        </div>
+
+        <div class="container">
+            <button class="login" type="submit" style="background-color: darkblue" name="register_btn">Open Visitor's Database</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+  </div>
 
 <!-- register model -->
 
