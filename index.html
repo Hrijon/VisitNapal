@@ -48,6 +48,37 @@
   </div>
 
 
+<!-- upload model -->
+          <div id="id05" class="loginModal">
+            <form class="loginModal-content animate" action="server/upload.php" method="post" enctype="multipart/form-data">
+        
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <h2>Upload Docs</h2>
+                  <img src="img/logo.jpeg" alt="anonymous" class="anonymous">
+
+                </div>
+        
+                <div class="container">
+                  <label for="resume"><b>Resume:  </b></label>
+                  <input id="resume" type="file" name="resume"> <br><br>
+
+                  <script>
+                    function upload() {
+                      var x = document.createElement("INPUT");
+                      x.setAttribute("type","file");
+                      document.body.appendChild(x);
+                    }
+                  </script>
+                  <button class="uploadRe" name="resume" id="submit_resume" type="submit"> Submit</button>
+                </div>                
+
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id05').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+          </div>
+
   </body>
 </div>
 
