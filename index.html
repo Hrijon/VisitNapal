@@ -48,6 +48,42 @@
   </div>
 
 
+<!-- register model -->
+
+        <div id="id02" class="registerModal">
+          <form class="registerModal-content animate" action="./server/register.php" method="post">
+
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <h2>Visitor Registration Form</h2>
+                <img src="img/logo.jpeg" alt="anonymous" class="anonymous">
+              </div>
+
+              <div class="container">
+
+                <label for="uname"><b>Visitor's Name</b></label>
+                <input type="text" placeholder="Enter visitor's name" name="name" >
+
+                <label for="country"><b>Country</b></label>
+                <input type="text" placeholder="Enter country of origin" name="country" >
+
+                <label for="age"><b>Age</b></label>
+                <input type="number" placeholder="Age of visitor" name="age" >
+
+                <label for="date"><b>Date of Arrival</b></label>
+                <input type="date" placeholder="Enter date " name="date"><br><br>
+
+              
+                <button class="login" type="submit" style="background-color: darkblue" name="register_btn">Add to Visitor's Diary</button>
+
+              </div>
+
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+              </div>
+          </form>
+        </div>
+        
 <!-- upload model -->
           <div id="id05" class="loginModal">
             <form class="loginModal-content animate" action="server/upload.php" method="post" enctype="multipart/form-data">
