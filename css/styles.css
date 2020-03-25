@@ -1,0 +1,192 @@
+.header {
+  background-color: #97d450 ;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 0.5%;
+  overflow: hidden;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: white;
+  margin-top: 40px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #97d450 ;
+  color: white;
+}
+
+.nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.nav .search-bar button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+
+/* id01 Set a style for all buttons */
+.login {
+  background-color: #97d450;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#home {
+  background-color: white;
+}
+/* The Modal (background) */
+.loginModal,
+.upload,
+.registerModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.loginModal-content,
+.upload-content,
+ .registerModal-content{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#login{
+	float: right;
+}
+
+#login-page{
+	height:200px;
+}
+
+img{
+	max-width: 30%;
+	height: auto;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.body-content {
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.content{
+  margin-top: auto;
+  overflow: hidden;
+
+}
+
+h1,h4 {
+  border-bottom: 3px solid #ccc;
+  color: red;
+  padding-bottom: 8px
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#submit{
+  color:green;
+  align-content: left;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  
+}
+
+.container {
+  padding: 16px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+  footer{
+    color: white;
+    background-color: #39ac43;
+    bottom: 0;
+    height:90px;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .footer-text{
+    margin-left:15px;
+    text-align: left;
+    float: left;
+  }
+
+
